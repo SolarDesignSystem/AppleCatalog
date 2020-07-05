@@ -1,6 +1,6 @@
 //
 //  SolarDesignSystemCatalogApp.swift
-//  Shared
+//  Solar Design System Catalog
 //
 //  Created by Brandon McQuilkin on 7/3/20.
 //  Copyright © 2020 Brandon McQuilkin (Marxon13).
