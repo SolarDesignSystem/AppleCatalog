@@ -3,27 +3,133 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172C8FAB24AF79E700CA53E8 /* Solar_Design_System_CatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9824AF79E600CA53E8 /* Solar_Design_System_CatalogApp.swift */; };
-		172C8FAC24AF79E700CA53E8 /* Solar_Design_System_CatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9824AF79E600CA53E8 /* Solar_Design_System_CatalogApp.swift */; };
-		172C8FAD24AF79E700CA53E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9924AF79E600CA53E8 /* ContentView.swift */; };
-		172C8FAE24AF79E700CA53E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9924AF79E600CA53E8 /* ContentView.swift */; };
+		172C8FAB24AF79E700CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9824AF79E600CA53E8 /* SolarDesignSystemCatalogApp.swift */; };
+		172C8FAC24AF79E700CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9824AF79E600CA53E8 /* SolarDesignSystemCatalogApp.swift */; };
 		172C8FAF24AF79E700CA53E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C8F9A24AF79E700CA53E8 /* Assets.xcassets */; };
 		172C8FB024AF79E700CA53E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C8F9A24AF79E700CA53E8 /* Assets.xcassets */; };
+		172C8FBF24AF7B2100CA53E8 /* watchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 172C8FBE24AF7B2100CA53E8 /* watchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		172C8FCB24AF7B2100CA53E8 /* watchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 172C8FCA24AF7B2100CA53E8 /* watchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		172C8FF824AF7C3C00CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9824AF79E600CA53E8 /* SolarDesignSystemCatalogApp.swift */; };
+		172C8FFA24AF7C3D00CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C8F9824AF79E600CA53E8 /* SolarDesignSystemCatalogApp.swift */; };
+		172C8FFB24AF7C4500CA53E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C8F9A24AF79E700CA53E8 /* Assets.xcassets */; };
+		172C8FFC24AF7C4500CA53E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C8F9A24AF79E700CA53E8 /* Assets.xcassets */; };
+		172C8FFD24AF7C4600CA53E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C8F9A24AF79E700CA53E8 /* Assets.xcassets */; };
+		172C8FFE24AF7C4600CA53E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172C8F9A24AF79E700CA53E8 /* Assets.xcassets */; };
+		175A524324AF9E6C00E0D26E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524224AF9E6C00E0D26E /* MainView.swift */; };
+		175A524424AF9E6C00E0D26E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524224AF9E6C00E0D26E /* MainView.swift */; };
+		175A524524AF9E6C00E0D26E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524224AF9E6C00E0D26E /* MainView.swift */; };
+		175A524624AF9E6C00E0D26E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524224AF9E6C00E0D26E /* MainView.swift */; };
+		175A524A24AF9ED900E0D26E /* StylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524924AF9ED900E0D26E /* StylesView.swift */; };
+		175A524B24AF9ED900E0D26E /* StylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524924AF9ED900E0D26E /* StylesView.swift */; };
+		175A524C24AF9ED900E0D26E /* StylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524924AF9ED900E0D26E /* StylesView.swift */; };
+		175A524D24AF9ED900E0D26E /* StylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524924AF9ED900E0D26E /* StylesView.swift */; };
+		175A524F24AF9F0100E0D26E /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524E24AF9F0100E0D26E /* ColorsView.swift */; };
+		175A525024AF9F0100E0D26E /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524E24AF9F0100E0D26E /* ColorsView.swift */; };
+		175A525124AF9F0100E0D26E /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524E24AF9F0100E0D26E /* ColorsView.swift */; };
+		175A525224AF9F0100E0D26E /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A524E24AF9F0100E0D26E /* ColorsView.swift */; };
+		175A525424AFDB6D00E0D26E /* SwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A525324AFDB6D00E0D26E /* SwatchView.swift */; };
+		175A525524AFDB6D00E0D26E /* SwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A525324AFDB6D00E0D26E /* SwatchView.swift */; };
+		175A525624AFDB6D00E0D26E /* SwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A525324AFDB6D00E0D26E /* SwatchView.swift */; };
+		175A525724AFDB6D00E0D26E /* SwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A525324AFDB6D00E0D26E /* SwatchView.swift */; };
+		175A525A24AFDC8900E0D26E /* SolarDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 175A525924AFDC8900E0D26E /* SolarDesignSystem */; };
+		175A525D24AFDC9200E0D26E /* SolarDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 175A525C24AFDC9200E0D26E /* SolarDesignSystem */; };
+		175A525F24AFDC9C00E0D26E /* SolarDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 175A525E24AFDC9C00E0D26E /* SolarDesignSystem */; };
+		175A526124AFDCA300E0D26E /* SolarDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 175A526024AFDCA300E0D26E /* SolarDesignSystem */; };
+		175A526324AFE5EE00E0D26E /* ColorManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526224AFE5EE00E0D26E /* ColorManifest.swift */; };
+		175A526424AFE5EE00E0D26E /* ColorManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526224AFE5EE00E0D26E /* ColorManifest.swift */; };
+		175A526524AFE5EE00E0D26E /* ColorManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526224AFE5EE00E0D26E /* ColorManifest.swift */; };
+		175A526624AFE5EE00E0D26E /* ColorManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526224AFE5EE00E0D26E /* ColorManifest.swift */; };
+		175A526D24AFF86B00E0D26E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526C24AFF86B00E0D26E /* ColorView.swift */; };
+		175A526E24AFF86B00E0D26E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526C24AFF86B00E0D26E /* ColorView.swift */; };
+		175A526F24AFF86B00E0D26E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526C24AFF86B00E0D26E /* ColorView.swift */; };
+		175A527024AFF86B00E0D26E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A526C24AFF86B00E0D26E /* ColorView.swift */; };
+		175A527724B0006200E0D26E /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A527624B0006200E0D26E /* Platform.swift */; };
+		175A527824B0006200E0D26E /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A527624B0006200E0D26E /* Platform.swift */; };
+		175A527924B0006200E0D26E /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A527624B0006200E0D26E /* Platform.swift */; };
+		175A527A24B0006200E0D26E /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A527624B0006200E0D26E /* Platform.swift */; };
+		177B01FE24B004B9002B2DD3 /* ColorListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B01FD24B004B9002B2DD3 /* ColorListItem.swift */; };
+		177B01FF24B004B9002B2DD3 /* ColorListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B01FD24B004B9002B2DD3 /* ColorListItem.swift */; };
+		177B020024B004B9002B2DD3 /* ColorListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B01FD24B004B9002B2DD3 /* ColorListItem.swift */; };
+		177B020124B004B9002B2DD3 /* ColorListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B01FD24B004B9002B2DD3 /* ColorListItem.swift */; };
+		177B020424B01B29002B2DD3 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B020324B01B29002B2DD3 /* Identifiable.swift */; };
+		177B020524B01B29002B2DD3 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B020324B01B29002B2DD3 /* Identifiable.swift */; };
+		177B020624B01B29002B2DD3 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B020324B01B29002B2DD3 /* Identifiable.swift */; };
+		177B020724B01B29002B2DD3 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B020324B01B29002B2DD3 /* Identifiable.swift */; };
+		177B020924B0C4D4002B2DD3 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B020824B0C4D4002B2DD3 /* SidebarView.swift */; };
+		177B020A24B0C4D4002B2DD3 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B020824B0C4D4002B2DD3 /* SidebarView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		172C8FC024AF7B2100CA53E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172C8F9324AF79E600CA53E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172C8FBD24AF7B2100CA53E8;
+			remoteInfo = "watchOS WatchKit App";
+		};
+		172C8FCC24AF7B2100CA53E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172C8F9324AF79E600CA53E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172C8FC924AF7B2100CA53E8;
+			remoteInfo = "watchOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		172C8FDC24AF7B2200CA53E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				172C8FCB24AF7B2100CA53E8 /* watchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FE024AF7B2200CA53E8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				172C8FBF24AF7B2100CA53E8 /* watchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		172C8F9824AF79E600CA53E8 /* Solar_Design_System_CatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_Design_System_CatalogApp.swift; sourceTree = "<group>"; };
-		172C8F9924AF79E600CA53E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		172C8F9824AF79E600CA53E8 /* SolarDesignSystemCatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarDesignSystemCatalogApp.swift; sourceTree = "<group>"; };
 		172C8F9A24AF79E700CA53E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172C8F9F24AF79E700CA53E8 /* Solar Design System Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Design System Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		172C8FA224AF79E700CA53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		172C8FA724AF79E700CA53E8 /* Solar Design System Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Design System Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		172C8FA924AF79E700CA53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		172C8FAA24AF79E700CA53E8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		172C8FBB24AF7B2000CA53E8 /* Solar Design System Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Design System Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C8FBE24AF7B2100CA53E8 /* watchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C8FC524AF7B2100CA53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172C8FCA24AF7B2100CA53E8 /* watchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C8FD824AF7B2200CA53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172C8FE824AF7B6800CA53E8 /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C8FF324AF7B6900CA53E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175A524224AF9E6C00E0D26E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		175A524924AF9ED900E0D26E /* StylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesView.swift; sourceTree = "<group>"; };
+		175A524E24AF9F0100E0D26E /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		175A525324AFDB6D00E0D26E /* SwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchView.swift; sourceTree = "<group>"; };
+		175A526224AFE5EE00E0D26E /* ColorManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManifest.swift; sourceTree = "<group>"; };
+		175A526C24AFF86B00E0D26E /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		175A527624B0006200E0D26E /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		177B01FD24B004B9002B2DD3 /* ColorListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListItem.swift; sourceTree = "<group>"; };
+		177B020324B01B29002B2DD3 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		177B020824B0C4D4002B2DD3 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175A525A24AFDC8900E0D26E /* SolarDesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +145,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175A525D24AFDC9200E0D26E /* SolarDesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FC724AF7B2100CA53E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175A525F24AFDC9C00E0D26E /* SolarDesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FE524AF7B6800CA53E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175A526124AFDCA300E0D26E /* SolarDesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,15 +174,22 @@
 				172C8F9724AF79E600CA53E8 /* Shared */,
 				172C8FA124AF79E700CA53E8 /* iOS */,
 				172C8FA824AF79E700CA53E8 /* macOS */,
+				172C8FC224AF7B2100CA53E8 /* watchOS WatchKit App */,
+				172C8FCE24AF7B2100CA53E8 /* watchOS WatchKit Extension */,
+				172C8FE924AF7B6800CA53E8 /* tvOS */,
 				172C8FA024AF79E700CA53E8 /* Products */,
+				175A525B24AFDC9200E0D26E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		172C8F9724AF79E600CA53E8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				172C8F9824AF79E600CA53E8 /* Solar_Design_System_CatalogApp.swift */,
-				172C8F9924AF79E600CA53E8 /* ContentView.swift */,
+				172C8F9824AF79E600CA53E8 /* SolarDesignSystemCatalogApp.swift */,
+				175A524224AF9E6C00E0D26E /* MainView.swift */,
+				177B020824B0C4D4002B2DD3 /* SidebarView.swift */,
+				175A524824AF9EBB00E0D26E /* Styles */,
+				177B020224B01489002B2DD3 /* Utilities */,
 				172C8F9A24AF79E700CA53E8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -69,6 +200,10 @@
 			children = (
 				172C8F9F24AF79E700CA53E8 /* Solar Design System Catalog.app */,
 				172C8FA724AF79E700CA53E8 /* Solar Design System Catalog.app */,
+				172C8FBB24AF7B2000CA53E8 /* Solar Design System Catalog.app */,
+				172C8FBE24AF7B2100CA53E8 /* watchOS WatchKit App.app */,
+				172C8FCA24AF7B2100CA53E8 /* watchOS WatchKit Extension.appex */,
+				172C8FE824AF7B6800CA53E8 /* tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +225,67 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		172C8FC224AF7B2100CA53E8 /* watchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				172C8FC524AF7B2100CA53E8 /* Info.plist */,
+			);
+			path = "watchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		172C8FCE24AF7B2100CA53E8 /* watchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				172C8FD824AF7B2200CA53E8 /* Info.plist */,
+			);
+			path = "watchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		172C8FE924AF7B6800CA53E8 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				172C8FF324AF7B6900CA53E8 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		175A524724AF9EB000E0D26E /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				175A526224AFE5EE00E0D26E /* ColorManifest.swift */,
+				175A524E24AF9F0100E0D26E /* ColorsView.swift */,
+				177B01FD24B004B9002B2DD3 /* ColorListItem.swift */,
+				175A526C24AFF86B00E0D26E /* ColorView.swift */,
+				175A525324AFDB6D00E0D26E /* SwatchView.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		175A524824AF9EBB00E0D26E /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				175A524924AF9ED900E0D26E /* StylesView.swift */,
+				175A524724AF9EB000E0D26E /* Color */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		175A525B24AFDC9200E0D26E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		177B020224B01489002B2DD3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				175A527624B0006200E0D26E /* Platform.swift */,
+				177B020324B01B29002B2DD3 /* Identifiable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +302,9 @@
 			dependencies = (
 			);
 			name = iOS;
+			packageProductDependencies = (
+				175A525924AFDC8900E0D26E /* SolarDesignSystem */,
+			);
 			productName = iOS;
 			productReference = 172C8F9F24AF79E700CA53E8 /* Solar Design System Catalog.app */;
 			productType = "com.apple.product-type.application";
@@ -123,8 +322,85 @@
 			dependencies = (
 			);
 			name = macOS;
+			packageProductDependencies = (
+				175A525C24AFDC9200E0D26E /* SolarDesignSystem */,
+			);
 			productName = macOS;
 			productReference = 172C8FA724AF79E700CA53E8 /* Solar Design System Catalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172C8FBA24AF7B2000CA53E8 /* watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C8FE124AF7B2200CA53E8 /* Build configuration list for PBXNativeTarget "watchOS" */;
+			buildPhases = (
+				172C8FB924AF7B2000CA53E8 /* Resources */,
+				172C8FE024AF7B2200CA53E8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172C8FC124AF7B2100CA53E8 /* PBXTargetDependency */,
+			);
+			name = watchOS;
+			productName = watchOS;
+			productReference = 172C8FBB24AF7B2000CA53E8 /* Solar Design System Catalog.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		172C8FBD24AF7B2100CA53E8 /* watchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C8FDD24AF7B2200CA53E8 /* Build configuration list for PBXNativeTarget "watchOS WatchKit App" */;
+			buildPhases = (
+				172C8FBC24AF7B2100CA53E8 /* Resources */,
+				172C8FDC24AF7B2200CA53E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172C8FCD24AF7B2100CA53E8 /* PBXTargetDependency */,
+			);
+			name = "watchOS WatchKit App";
+			productName = "watchOS WatchKit App";
+			productReference = 172C8FBE24AF7B2100CA53E8 /* watchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		172C8FC924AF7B2100CA53E8 /* watchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C8FD924AF7B2200CA53E8 /* Build configuration list for PBXNativeTarget "watchOS WatchKit Extension" */;
+			buildPhases = (
+				172C8FC624AF7B2100CA53E8 /* Sources */,
+				172C8FC724AF7B2100CA53E8 /* Frameworks */,
+				172C8FC824AF7B2100CA53E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS WatchKit Extension";
+			packageProductDependencies = (
+				175A525E24AFDC9C00E0D26E /* SolarDesignSystem */,
+			);
+			productName = "watchOS WatchKit Extension";
+			productReference = 172C8FCA24AF7B2100CA53E8 /* watchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		172C8FE724AF7B6800CA53E8 /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C8FF424AF7B6900CA53E8 /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				172C8FE424AF7B6800CA53E8 /* Sources */,
+				172C8FE524AF7B6800CA53E8 /* Frameworks */,
+				172C8FE624AF7B6800CA53E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			packageProductDependencies = (
+				175A526024AFDCA300E0D26E /* SolarDesignSystem */,
+			);
+			productName = tvOS;
+			productReference = 172C8FE824AF7B6800CA53E8 /* tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,6 +418,18 @@
 					172C8FA624AF79E700CA53E8 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					172C8FBA24AF7B2000CA53E8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					172C8FBD24AF7B2100CA53E8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					172C8FC924AF7B2100CA53E8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					172C8FE724AF7B6800CA53E8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 172C8F9624AF79E600CA53E8 /* Build configuration list for PBXProject "Solar Design System Catalog" */;
@@ -153,12 +441,19 @@
 				Base,
 			);
 			mainGroup = 172C8F9224AF79E600CA53E8;
+			packageReferences = (
+				175A525824AFDC8900E0D26E /* XCRemoteSwiftPackageReference "Apple" */,
+			);
 			productRefGroup = 172C8FA024AF79E700CA53E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				172C8F9E24AF79E700CA53E8 /* iOS */,
 				172C8FA624AF79E700CA53E8 /* macOS */,
+				172C8FBA24AF7B2000CA53E8 /* watchOS */,
+				172C8FBD24AF7B2100CA53E8 /* watchOS WatchKit App */,
+				172C8FC924AF7B2100CA53E8 /* watchOS WatchKit Extension */,
+				172C8FE724AF7B6800CA53E8 /* tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +475,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		172C8FB924AF7B2000CA53E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C8FFB24AF7C4500CA53E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FBC24AF7B2100CA53E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C8FFC24AF7C4500CA53E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FC824AF7B2100CA53E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C8FFD24AF7C4600CA53E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FE624AF7B6800CA53E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C8FFE24AF7C4600CA53E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -187,8 +514,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172C8FAD24AF79E700CA53E8 /* ContentView.swift in Sources */,
-				172C8FAB24AF79E700CA53E8 /* Solar_Design_System_CatalogApp.swift in Sources */,
+				175A524324AF9E6C00E0D26E /* MainView.swift in Sources */,
+				175A524F24AF9F0100E0D26E /* ColorsView.swift in Sources */,
+				177B01FE24B004B9002B2DD3 /* ColorListItem.swift in Sources */,
+				177B020424B01B29002B2DD3 /* Identifiable.swift in Sources */,
+				175A527724B0006200E0D26E /* Platform.swift in Sources */,
+				175A526D24AFF86B00E0D26E /* ColorView.swift in Sources */,
+				175A525424AFDB6D00E0D26E /* SwatchView.swift in Sources */,
+				177B020924B0C4D4002B2DD3 /* SidebarView.swift in Sources */,
+				175A524A24AF9ED900E0D26E /* StylesView.swift in Sources */,
+				175A526324AFE5EE00E0D26E /* ColorManifest.swift in Sources */,
+				172C8FAB24AF79E700CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,12 +532,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172C8FAE24AF79E700CA53E8 /* ContentView.swift in Sources */,
-				172C8FAC24AF79E700CA53E8 /* Solar_Design_System_CatalogApp.swift in Sources */,
+				175A524424AF9E6C00E0D26E /* MainView.swift in Sources */,
+				175A525024AF9F0100E0D26E /* ColorsView.swift in Sources */,
+				177B01FF24B004B9002B2DD3 /* ColorListItem.swift in Sources */,
+				177B020524B01B29002B2DD3 /* Identifiable.swift in Sources */,
+				175A527824B0006200E0D26E /* Platform.swift in Sources */,
+				175A526E24AFF86B00E0D26E /* ColorView.swift in Sources */,
+				175A525524AFDB6D00E0D26E /* SwatchView.swift in Sources */,
+				177B020A24B0C4D4002B2DD3 /* SidebarView.swift in Sources */,
+				175A524B24AF9ED900E0D26E /* StylesView.swift in Sources */,
+				175A526424AFE5EE00E0D26E /* ColorManifest.swift in Sources */,
+				172C8FAC24AF79E700CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FC624AF7B2100CA53E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C8FF824AF7C3C00CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */,
+				175A524524AF9E6C00E0D26E /* MainView.swift in Sources */,
+				177B020024B004B9002B2DD3 /* ColorListItem.swift in Sources */,
+				177B020624B01B29002B2DD3 /* Identifiable.swift in Sources */,
+				175A527924B0006200E0D26E /* Platform.swift in Sources */,
+				175A526F24AFF86B00E0D26E /* ColorView.swift in Sources */,
+				175A525624AFDB6D00E0D26E /* SwatchView.swift in Sources */,
+				175A525124AF9F0100E0D26E /* ColorsView.swift in Sources */,
+				175A526524AFE5EE00E0D26E /* ColorManifest.swift in Sources */,
+				175A524C24AF9ED900E0D26E /* StylesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172C8FE424AF7B6800CA53E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172C8FFA24AF7C3D00CA53E8 /* SolarDesignSystemCatalogApp.swift in Sources */,
+				175A524624AF9E6C00E0D26E /* MainView.swift in Sources */,
+				177B020124B004B9002B2DD3 /* ColorListItem.swift in Sources */,
+				177B020724B01B29002B2DD3 /* Identifiable.swift in Sources */,
+				175A527A24B0006200E0D26E /* Platform.swift in Sources */,
+				175A527024AFF86B00E0D26E /* ColorView.swift in Sources */,
+				175A525724AFDB6D00E0D26E /* SwatchView.swift in Sources */,
+				175A525224AF9F0100E0D26E /* ColorsView.swift in Sources */,
+				175A526624AFE5EE00E0D26E /* ColorManifest.swift in Sources */,
+				175A524D24AF9ED900E0D26E /* StylesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172C8FC124AF7B2100CA53E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172C8FBD24AF7B2100CA53E8 /* watchOS WatchKit App */;
+			targetProxy = 172C8FC024AF7B2100CA53E8 /* PBXContainerItemProxy */;
+		};
+		172C8FCD24AF7B2100CA53E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172C8FC924AF7B2100CA53E8 /* watchOS WatchKit Extension */;
+			targetProxy = 172C8FCC24AF7B2100CA53E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		172C8FB124AF79E700CA53E8 /* Debug */ = {
@@ -255,6 +647,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -308,6 +702,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -329,7 +725,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.solardesignsystem.Solar-Design-System-Catalog";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
 				PRODUCT_NAME = "Solar Design System Catalog";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -351,7 +747,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.solardesignsystem.Solar-Design-System-Catalog";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
 				PRODUCT_NAME = "Solar Design System Catalog";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -366,6 +762,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
@@ -377,7 +774,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.solardesignsystem.Solar-Design-System-Catalog";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
 				PRODUCT_NAME = "Solar Design System Catalog";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -390,6 +787,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
@@ -401,10 +799,174 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.solardesignsystem.Solar-Design-System-Catalog";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
 				PRODUCT_NAME = "Solar Design System Catalog";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		172C8FDA24AF7B2200CA53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		172C8FDB24AF7B2200CA53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		172C8FDE24AF7B2200CA53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				IBSC_MODULE = watchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		172C8FDF24AF7B2200CA53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				IBSC_MODULE = watchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		172C8FE224AF7B2200CA53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
+				PRODUCT_NAME = "Solar Design System Catalog";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		172C8FE324AF7B2200CA53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
+				PRODUCT_NAME = "Solar Design System Catalog";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172C8FF524AF7B6900CA53E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		172C8FF624AF7B6900CA53E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RCGQ2RRJJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solardesignsystem.catalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -438,7 +1000,77 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		172C8FD924AF7B2200CA53E8 /* Build configuration list for PBXNativeTarget "watchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C8FDA24AF7B2200CA53E8 /* Debug */,
+				172C8FDB24AF7B2200CA53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C8FDD24AF7B2200CA53E8 /* Build configuration list for PBXNativeTarget "watchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C8FDE24AF7B2200CA53E8 /* Debug */,
+				172C8FDF24AF7B2200CA53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C8FE124AF7B2200CA53E8 /* Build configuration list for PBXNativeTarget "watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C8FE224AF7B2200CA53E8 /* Debug */,
+				172C8FE324AF7B2200CA53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172C8FF424AF7B6900CA53E8 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172C8FF524AF7B6900CA53E8 /* Debug */,
+				172C8FF624AF7B6900CA53E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		175A525824AFDC8900E0D26E /* XCRemoteSwiftPackageReference "Apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SolarDesignSystem/Apple.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		175A525924AFDC8900E0D26E /* SolarDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175A525824AFDC8900E0D26E /* XCRemoteSwiftPackageReference "Apple" */;
+			productName = SolarDesignSystem;
+		};
+		175A525C24AFDC9200E0D26E /* SolarDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175A525824AFDC8900E0D26E /* XCRemoteSwiftPackageReference "Apple" */;
+			productName = SolarDesignSystem;
+		};
+		175A525E24AFDC9C00E0D26E /* SolarDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175A525824AFDC8900E0D26E /* XCRemoteSwiftPackageReference "Apple" */;
+			productName = SolarDesignSystem;
+		};
+		175A526024AFDCA300E0D26E /* SolarDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 175A525824AFDC8900E0D26E /* XCRemoteSwiftPackageReference "Apple" */;
+			productName = SolarDesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 172C8F9324AF79E600CA53E8 /* Project object */;
 }

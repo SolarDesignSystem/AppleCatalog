@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SolarDesignSystem",
+        "repositoryURL": "https://github.com/SolarDesignSystem/Apple.git",
+        "state": {
+          "branch": null,
+          "revision": "bbeaead2ecdbaa19d708a0ebe179ccdd340f8b57",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
